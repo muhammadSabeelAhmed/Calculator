@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabeel Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="myscreen">
+            <p id="screen"></p>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="orange" onclick="sendNum('+')">+</td>
+                    <td onclick="sendNum('7')">7</td>
+                    <td onclick="sendNum('8')">8</td>
+                    <td onclick="sendNum('9')">9</td>
+                </tr>
+                <tr>
+                    <td class="orange" onclick="sendNum('-')">-</td>
+                    <td onclick="sendNum('4')">4</td>
+                    <td onclick="sendNum('5')">5</td>
+                    <td onclick="sendNum('6')">6</td>
+                </tr>
+                <tr>
+                    <td class="orange" onclick="sendNum('*')">x</td>
+                    <td onclick="sendNum('1')">1</td>
+                    <td onclick="sendNum('2')">2</td>
+                    <td onclick="sendNum('3')">3</td>
+                </tr>
+                <tr>
+                    <td class="orange" onclick="clearScr()">Clear</td>
+                    <td class="orange" onclick="sendNum('/')">/</td>
+                    <td onclick="sendNum('0')">0</td>
+                    <td onclick="equalTo()">=</td>
+                </tr>
+                <tr class="powered">
+
+                </tr>
+            </tbody>
+        </table>
+        <p class="powered">Design & Developed by Muhammad Sabeel Ahmed</p>
+
+    </div>
+
+</body>
+
+</html>
